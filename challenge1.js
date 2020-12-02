@@ -2,7 +2,7 @@
 //n chilren have m pieces of candy. they can eat as much candy as they can but each child
 //must eat exactly the same amt of candy. Determine how many pieces candy children can eat
 //no splitting candy in half
-
+//https://scrimba.com/learn/adventcalendar/-javascript-challenge-candies-introduction-cLkqvpcQ
 
 function candies(children, candy) {
     // n num of children
