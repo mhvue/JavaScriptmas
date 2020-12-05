@@ -6,3 +6,6 @@ function reverseAString(str) {
     //then take array of str back to a str 
     return str.split("").reverse().join("");
 }
+
+
+//look up how to do this without set methods 
