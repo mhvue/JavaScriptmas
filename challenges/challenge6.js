@@ -8,12 +8,10 @@ function sortByLength(strs) {
     //sort method ascending
    let sorted = strs.sort(function(a,b){
         return a.length - b.length;
-        
-        if(a.length === b.length){
-            return b.length - a.length;
-    
-        }
     });
 
+    //console.log(sorted)
 return sorted;
 }
+
+sortByLength(["aba","aac","a", ""])
