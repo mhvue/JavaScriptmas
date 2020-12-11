@@ -2,7 +2,7 @@
 
 // could not get this one! Kept breaking my code while trying out while loop. solution below: 
 
-//solution below:
+//solution below from scrimba.com 
 // function sumOddFibonacciNumbers(num) {
 //     let sum = 0;
 //     let previous = 0;
