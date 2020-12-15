@@ -1,3 +1,5 @@
+//https://scrimba.com/learn/adventcalendar/-javascript-challenge-maximal-adjacent-difference-introduction-ckRE4Kt9
+
 function arrayMaximalAdjacentDifference(nums) {
     //have variable to hold for the difference per element value 
     let diffHolder = null;
