@@ -8,7 +8,7 @@ function insertDashes(arr) {
         const word = split[i]
         for(let j = 0; j < split[i].length; j++){ //loop through letters in each word 
             const letter = split[i][j]
-            const lastValIndex = [split[i].length-1]
+            const lastValIndex = split[i].length-1
             //console.log(lastValIndex)
             
             //add dash after each letter
