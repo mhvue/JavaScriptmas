@@ -27,4 +27,4 @@ function insertDashes(arr) {
       return newArr.join("");
 }
 
-//this is not the best soluton but it works! 
+//this is not the best soluton but it works (yay!)
