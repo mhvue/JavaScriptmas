@@ -4,7 +4,7 @@ function arrayMaximalAdjacentDifference(nums) {
     //have variable to hold for the difference per element value 
     let diffHolder = null;
     
-    for(let i = 0; i < nums.length; i++){
+    for(let i = 0; i < nums.length-1 ; i++){
         const currentVal = nums[i];
         const nextVal = nums[i+1];
         const subtractVal = currentVal - nextVal;
