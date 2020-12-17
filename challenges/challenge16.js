@@ -13,16 +13,18 @@ function insertDashes(arr) {
             
             //add dash after each letter
             if(j < lastValIndex){
-                newArr.push(letter + dash)
+                newArr.push(letter,dash)
             }
             else{
               //don't add dash
-                newArr.push(letter)
+                newArr.push(letter," ")
             }
         }
         
     }
 
-    //this is not the correct soluton. I am close though!
-     return newArr.join(""); 
+    //this is not the best soluton but it works! 
+      newArr.join("");
+      newArr.pop(); //removing that extra space 
+      return newArr.join("");
 }
