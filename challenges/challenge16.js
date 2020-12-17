@@ -23,8 +23,8 @@ function insertDashes(arr) {
         
     }
 
-    //this is not the best soluton but it works! 
-      newArr.join("");
       newArr.pop(); //removing that extra space 
       return newArr.join("");
 }
+
+//this is not the best soluton but it works! 
