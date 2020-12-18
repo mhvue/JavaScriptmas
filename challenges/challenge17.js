@@ -18,7 +18,9 @@ function differentSymbolsNaive(str) {
         console.log(currentChar)
         
         if(currentChar !== charHolder){
+            //now my current character is my charHolder if it does not equal to it before 
             charHolder = currentChar;
+            //increaase my count due to characters previously in charHolder is not the same current character 
             count++;
         }
     }
