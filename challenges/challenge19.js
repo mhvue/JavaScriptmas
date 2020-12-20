@@ -22,3 +22,6 @@ function alphabetSubsequence(str) {
     }
     
 }
+
+
+//wnat to try refractor and try out suggested hints to use: size property, charCodeAt
