@@ -16,7 +16,7 @@ document.onkeydown = function(event){
    document.getElementById("counterFooter").innerHTML = countHolder +"/" +140;
     
     //if pressed delete or backspace, increase count instead 
-    if(event.keyCode == 8 || event.keyCode == 46){
+    if(letter == "Backspace" || letter == "Delete"){
         countHolder = count++;
         document.getElementById("counterFooter").innerHTML = countHolder +"/" +140;
     }
@@ -26,7 +26,7 @@ document.onkeydown = function(event){
     }
    // drop below 0, we want the button to be disabled
    else if(count < 0){
-       //add class name to make button disabled ...now working yet
+       //add class name to make button disabled ...not working yet
        document.getElementById("btn").className = "buttonDisabled";
    }
    
