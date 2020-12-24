@@ -47,8 +47,15 @@ const spin = async () => {
 function stop(i){
     //clearInterval
     var result = document.getElementById('result'); //display your result message here
-    clearInterval(spin)
-    result.innerHTML = count;
+  
+    clearInterval(spin); //not working right now
+
+    if(count === targetInt){
+        result.innerHTML = "Awesome! You stopped right on" + count + "!" 
+    }
+    else{
+         result.innerHTML = "Oh no.. " + count + " is not the target number!" 
+    }
 }
 
 
